@@ -55,4 +55,5 @@ object BlockRegistry {
     val CAPACITOR_CELL = registerCellBlock("capacitor", eln2Tab) { CapacitorCellBlock() }
     val INDUCTOR_CELL = registerCellBlock("inductor", eln2Tab) { InductorCellBlock() }
     val DIODE_CELL = registerCellBlock("diode", eln2Tab) { DiodeCellBlock() }
+    val `12V_BATTERY_CELL` = registerCellBlock("12v_battery", eln2Tab) { `12vBatteryCellBlock`()}
 }
