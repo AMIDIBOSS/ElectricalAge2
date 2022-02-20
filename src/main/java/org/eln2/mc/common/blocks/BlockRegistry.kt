@@ -57,4 +57,5 @@ object BlockRegistry {
     val DIODE_CELL = registerCellBlock("diode", eln2Tab) { DiodeCellBlock() }
     val `12V_BATTERY_CELL` = registerCellBlock("12v_battery", eln2Tab) { `12vBatteryCellBlock`()}
     val LIGHT_CELL = registerCellBlock("light", eln2Tab) {LightCellBlock()}
+    val SOLAR_LIGHT_CELL = registerCellBlock("solar_light", eln2Tab) {SolarLightCellBlock()}
 }
